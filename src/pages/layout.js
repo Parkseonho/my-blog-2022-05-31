@@ -19,6 +19,9 @@ const layout = ({ pageTitle, children }) => {
           <li>
             <Link to="/test-space">TEST-SPACE</Link>
           </li>
+          <li>
+            <Link to="/layout">LAYOUT</Link>
+          </li>
         </ul>
       </nav>
       <main>
