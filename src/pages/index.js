@@ -7,6 +7,8 @@ const IndexPage = () => {
       <title> home page?? </title>
       <h1> home page!! </h1>
       <Link to="/about">About</Link>
+      <Link to="/test">Test</Link>
+      <Link to="/test-space">Test-space</Link>
     </main>
   );
 };
