@@ -25,3 +25,10 @@
 .nav-link-text:hover {
     color: rgb(54, 194, 219);
 }
+
+.site-title {
+  font-size: 3rem;
+  color: gray;
+  font-weight: 700;
+  margin: 3rem 0;
+}
