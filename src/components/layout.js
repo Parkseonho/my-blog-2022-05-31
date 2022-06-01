@@ -25,6 +25,16 @@ function Layout({ pageTitle, children }) {
               About
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link className={navLinkText} to="/test-space">
+              test-space
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link className={navLinkText} to="/test">
+              test
+            </Link>
+          </li>
         </ul>
       </nav>
 
