@@ -2,7 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import Layout from "../components/layout";
 
-const IndexPage = () => {
+const HomePage = () => {
   return (
     <Layout pageTitle="Home Page">
       <p>홈 페이지</p>
@@ -13,5 +13,4 @@ const IndexPage = () => {
     </Layout>
   );
 };
-
-export default IndexPage;
+export default HomePage;

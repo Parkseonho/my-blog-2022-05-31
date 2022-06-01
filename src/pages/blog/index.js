@@ -1,7 +1,7 @@
+import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
-import { graphql } from "gatsby";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import Layout from "../components/layout";
+import Layout from "../../components/layout";
 
 function BlogPage() {
   const data = useStaticQuery(graphql`
@@ -18,10 +18,8 @@ function BlogPage() {
       }
     }
   `);
-
   return (
     <Layout pageTitle="My Blog Posts">
-      <p>My cool posts will go in here</p>
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <h2>{node.frontmatter.title}</h2>
