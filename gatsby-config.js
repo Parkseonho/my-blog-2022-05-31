@@ -4,5 +4,15 @@ module.exports = {
     title: "My First Site",
     description: "해당 사이트엔 박선호의 개발일지가 담겨있습니다.",
   },
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `blog`,
+        path: `${__dirname}/blog`,
+      },
+    },
+  ],
 };
