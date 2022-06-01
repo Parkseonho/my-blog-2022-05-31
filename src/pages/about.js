@@ -9,3 +9,4 @@ function AboutPage() {
     </Layout>
   );
 }
+export default AboutPage;
