@@ -1,17 +1,11 @@
 import React from "react";
-import { Link } from "gatsby";
+import Layout from "../components/layout";
 
-function aboutpage() {
+function AboutPage() {
   return (
-    <main>
+    <Layout>
       <title>자기소개</title>
       <h1>자기소개 페이지 입니다.</h1>
-      <Link to="/layout">Layout_ _ _</Link>
-      <Link to="/">Back to home</Link>
-      <Link to="/test">Test_ _ _</Link>
-      <Link to="/test-space">Test-space</Link>
-    </main>
+    </Layout>
   );
 }
-
-export default aboutpage;
