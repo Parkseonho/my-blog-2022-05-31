@@ -5,7 +5,7 @@
 }
 
 .heading {
-  color: rgb(42, 51, 184);
+  color: rgb(21, 187, 179);
 }
 
 .nav-links {
@@ -23,7 +23,9 @@
   }
 
 .nav-link-text:hover {
-    color: rgb(54, 194, 219);
+    color: rgb(37, 169, 202);
+    font-weight: bold;
+    border-bottom: 1px solid;
 }
 
 .site-title {

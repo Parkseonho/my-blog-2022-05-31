@@ -32,7 +32,7 @@ function Layout({ pageTitle, children }) {
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
-            <Link className={navLinkText} to="/Home">
+            <Link className={navLinkText} to="/">
               Home
             </Link>
           </li>
