@@ -5,7 +5,7 @@
 }
 
 .heading {
-  color: rebeccapurple;
+  color: rgb(42, 51, 184);
 }
 
 .nav-links {
@@ -19,5 +19,9 @@
 }
 
 .nav-link-text {
-  color: black;
+  color: rgb(94, 94, 94);
+  }
+
+.nav-link-text:hover {
+    color: rgb(54, 194, 219);
 }
