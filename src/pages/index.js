@@ -4,13 +4,11 @@ import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <title>Home Page</title>
-
+    <Layout pageTitle="Home Page">
       <p>홈 페이지</p>
       <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        src="../images/dog.jpg"
       />
     </Layout>
   );
