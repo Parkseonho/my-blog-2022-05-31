@@ -3,7 +3,8 @@
   }
 
 .blog-link-text:hover {
-    color: rgb(37, 169, 202);
+    color: rgb(14, 129, 158);
     font-weight: bold;
     border-bottom: 1px solid;
+
 }
