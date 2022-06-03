@@ -12,8 +12,10 @@ const BlogPost = ({ data }) => {
     getImage(data.mdx.frontmatter.hero_image);
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
-      <p>{data.mdx.frontmatter.date}</p>
-      <p>{data.mdx.frontmatter.tags}</p>
+      <p>
+        일자 : {data.mdx.frontmatter.date} || 테그 :
+        {data.mdx.frontmatter.tags && data.mdx.frontmatter.tags.join(", ")}
+      </p>
 
       {image && (
         <>

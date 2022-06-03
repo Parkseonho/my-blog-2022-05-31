@@ -8,10 +8,9 @@ const TagPage = ({ data }) => {
       <p>태크 페이지 입니다.</p>
       {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
-          <h2>{node.frontmatter.tags}</h2>
+          <h4>{node.frontmatter.tags.join(", ")}</h4>
         </article>
       ))}
-      ;
     </Layout>
   );
 };
