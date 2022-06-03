@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
@@ -21,6 +21,7 @@ const BlogPage = ({ data }) => {
     </Layout>
   );
 };
+
 export const query = graphql`
   query {
     allMdx(sort: { fields: frontmatter___date, order: ASC }) {
